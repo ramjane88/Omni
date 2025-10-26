@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: dark; }
+html,body { background:#0A0A0A; color:white; }
+.btn { @apply rounded-xl px-4 py-3 bg-primary text-white active:scale-95 transition text-[15px]; }
+.card { @apply rounded-2xl bg-panel p-4 shadow border border-[#1e1e1e]; }
+.input { @apply w-full rounded-xl bg-[#101010] border border-[#262626] px-3 py-3 outline-none text-[15px]; }
+.tab { @apply px-3 py-2 rounded-xl bg-[#111] border border-[#222]; }
